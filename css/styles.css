@@ -4443,6 +4443,9 @@ input[type=button].btn-block {
     margin-right: -0.75rem;
     margin-left: -0.75rem;
   }
+  .only-one {
+    max-width: 34%;
+  }
   .card-deck .card {
     flex: 1 0 0%;
     margin-right: 0.75rem;
