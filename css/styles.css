@@ -9920,6 +9920,7 @@ section#mission div div div div hr{
 section#mission div div div div {
   background-color: rgba(255, 255, 255, 0.6);
   border: 3px solid white;
+  padding: 50px 30px;
 }
 section#mission div div div div p{
   position: relative;
