@@ -1,0 +1,19 @@
+{
+  "name": "medandmore",
+  "version": "1.0.0",
+  "description": "medandmore.pl",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browser-sync start --server --files 'css/*.css, **/*.html'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stona1/medandmore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stona1/medandmore/issues"
+  },
+  "homepage": "https://github.com/stona1/medandmore#readme"
+}
