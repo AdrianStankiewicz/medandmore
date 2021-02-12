@@ -4446,6 +4446,9 @@ input[type=button].btn-block {
   .only-one {
     max-width: 34%;
   }
+  .only-two {
+    max-width: 68%;
+  }
   .card-deck .card {
     flex: 1 0 0%;
     margin-right: 0.75rem;
