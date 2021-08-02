@@ -11,7 +11,8 @@
     <!--<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />-->
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
@@ -164,6 +165,24 @@
                     <div class="card-deck">
                         <div class="card">
                             <div class="produkty-hover">
+                                <a class="produkty-link" data-toggle="modal" href="#newsModal6">
+                                    <img class="card-img-top" src="assets/img/news/06-thumbnail.webp"
+                                        alt="Card image cap">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <a class="produkty-link" data-toggle="modal" href="#newsModal6">
+                                    <h5 class="card-title">Instalacja systemu EOS w Otwocku</h5>
+                                    <p class="card-text">W lutym 2021 roku zainstalowano system EOSedge w Samodzielnym
+                                        Publicznym Szpitalu Klinicznym im. prof. Adama Grucy w Otwocku. </p>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">31.07.2021</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="produkty-hover">
                                 <a class="produkty-link" data-toggle="modal" href="#newsModal5">
                                     <img class="card-img-top" src="assets/img/news/05-thumbnail.jpg"
                                         alt="Card image cap">
@@ -206,6 +225,15 @@
                                 <small class="text-muted">19.11.2020</small>
                             </div>
                         </div>
+
+                    </div>
+                </div>
+            </div>
+            <p><br></p>
+            <!-- Jeżeli w card-deck zostaną dwie karty to specjalna klasa: only-two -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-deck">
                         <div class="card">
                             <div class="produkty-hover">
                                 <a class="produkty-link" data-toggle="modal" href="#newsModal3">
@@ -223,13 +251,6 @@
                                 <small class="text-muted">23.11.2018</small>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <p><br></p>
-            <div class="row">
-                <div class="col-12">
-                    <div class="card-deck only-two">
                         <div class="card">
                             <div class="produkty-hover">
                                 <a class="produkty-link" data-toggle="modal" href="#newsModal2">
@@ -397,7 +418,8 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
                                 <h2 class="text-uppercase">eos</h2>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/produkty/01-full.jpg" alt="" loading="lazy" />
+                                <img class="img-fluid d-block mx-auto" src="assets/img/produkty/01-full.jpg" alt=""
+                                    loading="lazy" />
                                 <p>EOS jest pierwszym systemem, który pozwala radiologom zobrazować cały szkielet
                                     pacjenta. Stworzony na podstawie technologii uhonorowanej Nagrodą Nobla daje
                                     całkowicie nowe możliwości w planowaniu skutecznego zabiegu chirurgii ortopedycznej:
@@ -521,6 +543,45 @@
         </div>
     </div>
     <!-- news Modals-->
+    <!-- Modal 6-->
+    <div class="produkty-modal modal fade" id="newsModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <h2>Badanie EOS w Polsce</h2>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/news/06-full.jpg"
+                                    alt="Szpital Kliniczny im. prof. Adama Grucy w Otwocku" loading="lazy" />
+                                <p class="text-muted">W lutym 2021 roku zainstalowano system EOSedge w Samodzielnym
+                                    Publicznym Szpitalu Klinicznym im. prof. Adama Grucy w Otwocku. Szpital Kliniczny
+                                    im. prof. Adama Grucy stał się trzecim ośrodkiem medycznym w Polsce wyposażonym w
+                                    najnowszą technologię diagnostyki obrazowej narządu ruchu, system EOSedge. Platforma
+                                    EOSedge umożliwi jeszcze dokładniejszą diagnostykę pacjentów ortopedycznych, którzy
+                                    podejmują leczenie w Otwocku.</p>
+                                <p class="text-muted">W lutym 2021 roku zainstalowano system EOSedge w Samodzielnym
+                                    Publicznym Szpitalu Klinicznym im. prof. Adama Grucy w Otwocku.</p>
+                                <p class="text-muted">
+                                    Szpital Kliniczny im. prof. Adama Grucy stał się trzecim ośrodkiem medycznym w
+                                    Polsce wyposażonym w najnowszą technologię diagnostyki obrazowej narządu ruchu,
+                                    system EOSedge.
+                                </p>
+                                <p class="text-muted">
+                                    Platforma EOSedge umożliwi jeszcze dokładniejszą diagnostykę pacjentów
+                                    ortopedycznych, którzy podejmują leczenie w Otwocku.
+                                </p>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>Zamknij</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Modal 5-->
     <div class="produkty-modal modal fade" id="newsModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -532,7 +593,8 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <h2>Badanie EOS w Polsce</h2>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/news/05-full.jpg" alt="Kobieta poddająca się badaniu EOS" loading="lazy" />
+                                <img class="img-fluid d-block mx-auto" src="assets/img/news/05-full.jpg"
+                                    alt="Kobieta poddająca się badaniu EOS" loading="lazy" />
                                 <p class="text-muted">Platforma EOS to unikalna kombinacja technologii obrazowania 2D /
                                     3D w niskiej dawce promieniowania, oprogramowania i usług, które zwiększają wartość
                                     diagnostyki każdego etapu ścieżki leczenia układu mięśniowo-szkieletowego.</p>
@@ -541,7 +603,10 @@
                                     wzbudziła duże zainteresowanie: poniżej przedstawiamy reportaż TVP Łódź o platformie
                                     EOS.</p>
                                 <div row>
-                                    <iframe title="video" width="560" height="315" src="https://regiony.tvp.pl/sess/TVPlayer2/embed.php?ID=48203966" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen" class="vue-embed" loading="lazy"></iframe>
+                                    <iframe title="video" width="560" height="315"
+                                        src="https://regiony.tvp.pl/sess/TVPlayer2/embed.php?ID=48203966"
+                                        frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"
+                                        class="vue-embed" loading="lazy"></iframe>
                                 </div>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>Zamknij</button>
@@ -563,7 +628,8 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <h2>Badanie EOS - Bezpieczna alternatywa dla RTG.</h2>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/news/04-full.jpg" alt="" loading="lazy" />
+                                <img class="img-fluid d-block mx-auto" src="assets/img/news/04-full.jpg" alt=""
+                                    loading="lazy" />
                                 <p class="text-muted">Obecna wiedza na temat skutków ekspozycji na promieniowanie
                                     rentgenowskie skłania świat medycyny do szukania nowych rozwiązań diagnostycznych.
                                     Badanie EOS pozwala na znaczące obniżenie dawki promieniowania, przy jednoczesnym
@@ -600,7 +666,8 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <h2>PLTR2019 Congress of Polish Medical Society of Radiology</h2>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/news/03-full.jpg" alt="" loading="lazy" />
+                                <img class="img-fluid d-block mx-auto" src="assets/img/news/03-full.jpg" alt=""
+                                    loading="lazy" />
                                 <p class="text-muted">Gdańsk, 06-08.06.2019<br>Dear Sir or Madam,<br>Dear Colleagues and
                                     Dear Colleagues,</p>
                                 <p class="text-muted">The discovery of X-rays by Wilhelm Röntgen in 1895 changed the
@@ -649,7 +716,8 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <h2>KRĘGOSŁUP DZIECIĘCY – POLSKA 2018</h2>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/news/02-full.jpg" alt="" loading="lazy" />
+                                <img class="img-fluid d-block mx-auto" src="assets/img/news/02-full.jpg" alt=""
+                                    loading="lazy" />
                                 <p class="text-muted">Szczecin, September 25-26, 2018<br><b>Ladies and Gentlemen, Dear
                                         Colleagues, Dear Colleagues,</b></p>
                                 <p class="text-muted">On behalf of her, the Polish Society of Neurosurgeons, the
@@ -692,7 +760,8 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <h2 class="text-uppercase">EUROSPINE 2018</h2>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/news/01-full.jpg" alt="" loading="lazy" />
+                                <img class="img-fluid d-block mx-auto" src="assets/img/news/01-full.jpg" alt=""
+                                    loading="lazy" />
                                 <p class="text-muted">19-21 September 2018 Barcelona, Spain<br>
                                     Venue: CCIB – Barcelona International Convention Centre<br>
                                     Local Hosts: Luis Alvarez Galovich (Madrid)<br>
